@@ -1,14 +1,15 @@
-/* I learnt how to  get an api key, I learnt how to  post archive path after extracting it.
-I learnt the batchsize means how many tweet I want it to process at the same time which is 15, criteria which are the forbidden words, such as I want audited ut
-*/
 {
   "gemini_api_key": "AIzaSyD8PhmfUz1NI7z-k1rZ8lb0zs31UUvTK8w",
-  "archive_path": "\"C:\\Users\\dell\\OneDrive\\twitter-2025-11-21-75ccf808040e78de1ba53205ef35dfaa8baf4e7fdf35c74d4727a0f2927ea84d\"",
-  "batchsize": 15,
+  "archive_path": "C:\\Users\\dell\\OneDrive\\twitter-2025-11-21-75ccf808040e78de1ba53205ef35dfaa8baf4e7fdf35c74d4727a0f2927ea84d",
+  "batchsize" : 15,
   "criteria": {
     "forbidden": ["crypto", "angry", "lfg"],
-    "tone": "professional"
+    "tone": "professional",
+    "username": "@JKodarh"
   }
 }
+
+
+
 
 

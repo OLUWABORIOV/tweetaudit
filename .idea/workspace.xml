@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd45875d-a976-4acd-b8ab-72f4f4015ce1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TRADEOFFS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/GeminiAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Tweet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/TweetParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tweet/GeminiAnalyzerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tweet/TweetParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/GeminiAnalyzerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tweetaudit/GeminiAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TRADEOFFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/TRADEOFFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tweetaudit/GeminiAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/GeminiAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tweetaudit/TweetParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tweetaudit/TweetParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tweet/GeminiAnalyzerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "OLUWABORIOV"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/OLUWABORIOV/tweetaudit.git",
+    "accountId": "51746500-1cb2-43f9-b58e-cfda0b479613"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -46,13 +54,41 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dell/IdeaProjects/tweetaudit&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tweetaudit" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tweetaudit.Main" />
+      <module name="tweetaudit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tweetaudit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cd45875d-a976-4acd-b8ab-72f4f4015ce1" name="Changes" comment="" />
@@ -62,5 +98,55 @@
       <updated>1764189600249</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="33704190-3686-4b32-aecd-252a77ddfc91" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="33704190-3686-4b32-aecd-252a77ddfc91">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="https://github.com/OLUWABORIOV/tweetaudit.git" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

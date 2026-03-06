@@ -9,9 +9,17 @@ I utilized a **standard synchronous Java application** structure.
 The application processes batches **sequentially** on the main thread with a standard `Thread.sleep()` throttle.
 * **Decision:** While Java 21 Virtual Threads (`ExecutorService.newVirtualThreadPerTaskExecutor`) offer high concurrency, LLM APIs have strict Rate Limits (RPM).
 * **Trade-off:** A simple synchronous loop is easier to debug and naturally respects rate limits without complex semaphore logic. The performance cost is acceptable for an offline audit tool.
-
+## Config.json
+/* I learnt how to  get an api key, I learnt how to  post archive path after extracting it.
+I learnt the batchsize means how many tweet I want it to process at the same time which is 15, criteria which are the forbidden words, such as I want audited ut
+*/
+{
 ## Error Handling
-I implemented a **Defensive/Skip** strategy.
+I implemented a Fail fast approach strategy. 
+As a junior developer starting out in Java.
+I can't afford to risk the retry strategy or log and continue 
+which can lead to loss of money if used in a fintech app.
+I need to spot any errors as fast as possible.
 * **JSON Parsing:** Malformed tweets are skipped rather than halting the parser.
 * **API Calls:** If a batch request fails (network or 500 error), the error is logged to `System.err`, and the batch is skipped. This ensures the script finishes even if intermittent API errors occur.
 

@@ -9,5 +9,8 @@ public record Config(
         @JsonProperty("gemini_api_key") String apiKey,
         @JsonProperty("archive_path") String archivePath,
         @JsonProperty("batch_size") int batchSize,
-        @JsonProperty("criteria") Map<String, Object> criteria
+        @JsonProperty("criteria") Map<String, Object> criteria,
+        @JsonProperty("user_name") String username
 ) {}
+
+
