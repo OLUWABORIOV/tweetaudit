@@ -51,9 +51,6 @@ public class GeminiAnalyzer {
                 throw new GeminiAnalyzerException("Gemini API Error", response.statusCode(), response.body());
             }
 
-            if(response.statusCode() != 200){
-                throw new GeminiAnalyzerException("Gemini Api Error", response.statusCode(), response.body());
-            }
 
             return extractFlaggedIds(response.body());
 
